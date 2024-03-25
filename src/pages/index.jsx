@@ -1,12 +1,18 @@
 import {Container } from "react-bootstrap";
-import { Jumbotron} from "@/components/Jumbotron";
+import {MyNavbar} from "@/components/MyNavbar";
+import {Jumbotron } from "@/components/Jumbotron";
+import {MyCards} from "@/components/MyCards";
+
 import Link from "next/link";
 
 export default function Home() {
   return (
     <Container>
+      <MyNavbar/>
+      <div className="container">
       <Jumbotron/>
-      <Link href="/about">About</Link>
+      <MyCards/>
+      </div>
     </Container>
   );
 }
