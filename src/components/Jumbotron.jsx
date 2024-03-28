@@ -2,7 +2,7 @@ import { Button, Col, Row } from "react-bootstrap";
 
 export function Jumbotron() {
   return (
-        <Row>
+        <Row className="texto">
       <Col>
         <h1>A Warm Welcome!</h1>
         <p>
@@ -13,6 +13,6 @@ export function Jumbotron() {
         </p>
         <Button variant="primary">Call to action!</Button>
         </Col>
-    </Row>
+       </Row>
   );
 }

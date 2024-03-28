@@ -9,11 +9,17 @@
     justify-content: center;
 }
 
-.h1{
-    background-color: gray;
+
+.color{
+    background: gray;
 }
 
 .flex-row{
     display: flex;
     flex-direction: row;
+}
+
+.h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
 }
